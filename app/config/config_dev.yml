@@ -1,0 +1,11 @@
+framework:
+    secret:          $ecret
+    router:
+        resource: "%kernel.root_dir%/config/routing_dev.yml"
+    form:            ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    templating:
+        engines: ['twig']
+    session:         ~
+    fragments:       ~
